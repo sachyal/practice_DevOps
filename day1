@@ -6,7 +6,7 @@
     6  pwd
     7  ll
     8  git status
-    9  git clone https://github.com/Fir3eye/springboot-demo.git
+    9  git clone https://github.com/sachyal/springboot-demo.git
    10  ll
    11  cd springboot-demo/
    12  ls
@@ -85,7 +85,7 @@
    85  ssh-keygen
    86  ls
    87  ll
-   88  cat id_ed25519.pub
+   88  cat id.pub
    89  cd authorized_keys
    90  clear
    91  cd
