@@ -1,0 +1,106 @@
+ 1  LS
+    2  ls
+    3  whoami
+    4  ls
+    5  pws
+    6  pwd
+    7  ll
+    8  git status
+    9  git clone https://github.com/Fir3eye/springboot-demo.git
+   10  ll
+   11  cd springboot-demo/
+   12  ls
+   13  git init
+   14  ll
+   15  vi README.md
+   16  cat README.md
+   17  git status
+   18  git add README.md
+   19  git status
+   20  git commit -m "updated modified file"
+   21  git push
+   22  git branch
+   23  git push origin main
+   24  You can suppress this message by setting them explicitly. Run the
+   25  following command and follow the instructions in your editor to edit
+   26  your configuration file:
+   27  After doing this, you may fix the identity used for this commi
+   28  ls
+   29  git init
+   30  cd ..
+   31  ls
+   32  rm springboot-demo
+   33  git clone https://github.com/sachyal/springboot-demo.git
+   34  ll
+   35  rm -r springboot-demo/
+   36  rm -help
+   37  rm --help
+   38  https://github.com/sachyal/springboot-demo.git
+   39  rm -r springboot-demo/
+   40  ls
+   41  sudo rm -r springboot-demo
+   42  ls
+   43  ll
+   44  git clone https://github.com/sachyal/springboot-demo.git
+   45  ls
+   46  cd springboot-demo/
+   47  ls
+   48  gitinit
+   49  git init
+   50  ll
+   51  vi README.md
+   52  git status
+   53  git add .
+   54  git status
+   55  git commit -m "updated file"
+   56  git status
+   57  git branch
+   58  git push origin main
+   59  ls
+   60  git branch
+   61  git branch new
+   62  git branch
+   63  git checkout new
+   64  git branch
+   65  touch file1
+   66  git checkout main
+   67  git merge new
+   68  ls
+   69  git checkout new
+   70  git add .
+   71  git commit -m "uptodate"
+   72  git push origin new
+   73  clear
+   74  git branch
+   75  git checkout main
+   76  git branch
+   77  git merge new
+   78  git push origin main
+   79  git logs
+   80  git log
+   81  clear
+   82  cd
+   83  cd .ssh
+   84  ls
+   85  ssh-keygen
+   86  ls
+   87  ll
+   88  cat id_ed25519.pub
+   89  cd authorized_keys
+   90  clear
+   91  cd
+   92  cd springboot-demo/
+   93  ls
+   94  git remote set-url origin git@github.com:sachyal/springboot-demo.git
+   95  git remote -v
+   96  git branch
+   97  ls
+   98  vi file1
+   99  git add file1
+  100  git commit -m "updatedf1"
+  101  git status
+  102  git push origin main
+  103  ls
+  104  cd ..
+  105  ls
+  106  history
