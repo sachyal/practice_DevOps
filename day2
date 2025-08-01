@@ -1,0 +1,26 @@
+Deploy springboot app on ec2 server
+    apt update
+  141  sudo apt update
+  142  ls
+  143  sudo rm -r springboot-demo
+  144  ls
+  145  sudo apt install openjdk-17-jdk
+  146  java --version
+  147  sudo apt install maven
+  148  git clone https://github.com/sachyal/springboot-demo.git
+  149  ls
+  150  cd springboot-demo
+  151  ls
+  152  mvn clean install
+  153  ls
+  154  cd target
+  155  ls
+  156  clear
+  157  ls
+  158  java -jar sendevops-0.0.1-SNAPSHOT.jar
+  159  clear
+  160  history
+  161  uptime
+  162  history
+change inbound rules,add 8080 port
+  access to public_ip:8080
