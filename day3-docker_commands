@@ -1,0 +1,125 @@
+Docker imp commands
+    1  apt install docker.io
+    2  clear
+    3  docker -v
+    4  docker search jenkins
+    5  docker pull jenkins/jenkins
+    6  docker search java
+    7  clear
+    8  docker images
+    9  docker history jenkins/jenkins
+   10  clear
+   11  ls
+   12  docker images
+   13  docker run -d -p 8080:8080 jenkins/jenkins
+   14  docker images
+   15  docker ps
+   16  docker stop 9117041f6d1b
+   17  docker ps
+   18  docker ps -a
+   19  docker rm
+   20  docker rm 9117041f6d1b
+   21  docker ps
+   22  docker ps -a
+   23  docker images
+   24  clear
+   25  docker images
+   26  docker run -d -p 8070:8080 jenkins/jenkins
+   27  docker ps
+   28  docker run -d -p 8060:8080 jenkins/jenkins
+   29  docker ps
+   30  docker stop 4e839ae8b565 3440fd5dd34d
+   31  docker ps -a
+   32  docker rm 3440fd5dd34d
+   33  docker ps -a
+   34  docker rm 4e839ae8b565
+   35  docker ps -a
+   36  docker images
+   37  clear
+   38  docker images
+   39  docker run -d -p 8060:8080 jenkins/jenkins
+   40  docker ps -a
+   41  docker --name jnserver 640c480f974f
+   42  docker images
+   43  clear
+   44  docker run -d -p 8060:8080 --name dbserver jenkins/jenkins
+   45  docker ps
+   46  dokcer rm 640c480f974f
+   47  docker stop 640c480f974f
+   48  docker rm 640c480f974f
+   49  docker ps -a
+   50  docker ps
+   51  docker run d011809c8531
+   52  docker start dbserver
+   53  docker ps
+   54  docker exec -it dbserver
+   55  docker exec -it dbserver bash
+   56  ls
+   57  ls -a
+   58  docker ps
+   59  docker log d011809c8531
+   60  clear
+   61  docker logs d011809c8531
+   62  clr
+   63  clear
+   64  docker login
+   65  uptime
+   66  users
+   67  sudo su- ubuntu
+   68  su- users
+   69  exit
+   70  users
+   71  uptime
+   72  exit
+   73  docker ps
+   74  clear
+   75  docker ps
+   76  docker images
+   77  pwd
+   78  ll
+   79  git clone https://github.com/sachyal/springboot-demo.git
+   80  ls
+   81  cd springboot-demo/
+   82  ls
+   83  cat Dockerfile
+   84  docker build -t java_app .
+   85  docker images
+   86  docker history java_app
+   87  clear
+   88  docker ps -a
+   89  docker commit jen d011809c8531
+   90  docker commit dbserver d011809c8531
+   91  docker images
+   92  docker commit d011809c8531 new
+   93  docker images
+   94  docker push java_app
+   95  docker tag fire:latest java_app
+   96  docker tag java_app fire_java_app:latest
+   97  docker ps
+   98  docker images
+   99  docker push fire_java_app
+  100  clear
+  101  docker pull fireye/buildimage
+  102  docker pull fir3eye/buildimage
+  103  docker images
+  104  docker rm new
+  105  docker rmi new
+  106  docker images
+  107  docker ps
+  108  docker stop d011809c8531
+  109  docker ps -a
+  110  docker rm d011809c8531
+  111  docker ps -a
+  112  clear
+  113  docker network ls
+  114  docker create newnet
+  115  docker network create newnet
+  116  docker network ls
+  117  docker network rm newnet
+  118  docker network ls
+  119  docker network inspect b0661db3d82d
+  120  clear
+  121  uptime
+  122  docker ps -a
+  history 
+     
