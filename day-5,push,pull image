@@ -1,0 +1,30 @@
+push/pull docker image
+1  apt update
+    2  clear
+    3  git clone https://github.com/Fir3eye/3-tier-Docker-application.git
+    4  ll
+    5  cd 3-tier-Docker-application/
+    6  ll
+    7  apt install docker.io
+    8  docker -v
+    9  ll
+   10  docker build -t testimage .
+   11  ll
+   12  docker images
+   13  docker tag testimage sachyal/testimage:v1
+   14  docker images
+   15  docker login
+   16  docker login -u sachyal
+   17  clear
+   18  docker images
+   19  docker push sachyal/testimage:v1
+   20  ls
+   21  docker docker images
+   22  docker images
+   23  docker pull sachyal/testimage:latest
+   24  docker pull sachyal/testimage
+   25  docker pull fir3eye/java_app:latest
+   26  docker images
+   27  clear
+   28  cd ..
+   29  history
