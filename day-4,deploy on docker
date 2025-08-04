@@ -1,0 +1,37 @@
+Deploy springboot app on docker 
+  3  whoami
+    4  clear
+    5  sudo apt update
+    6  clear
+    7  git clone https://github.com/sachyal/springboot-demo.git
+    8  ls
+    9  cd springboot-demo/
+   10  ls
+   11  docker --version
+   12  apt install docker.io
+   13  sudo apt install docker.io
+   14  docker --version
+   15  clear
+   16  ls
+   17  cat Dockerfile
+   18  sudo apt install bat
+   19  batcat Dockerfile
+   20  ls
+   21  docker build -t java .
+   22  sudo docker build -t java .
+   23  ls
+   24  clear
+   25  docker images
+   26  sudo docker images
+   27  sudo docker history java
+   28  sudo docker run -d -p 8070:8080 java
+   29  sudo docker ps
+   30  docker stop 57cca86e4410
+   31  sudo docker stop 57cca86e4410
+   32  sudo docker ps
+   33  sudo docker ps -a
+   34  sudo docker rm 57cca86e4410
+   35  sudo docker ps -a
+   36  sudo docker  images
+   37  sudo docker exec java bash
+   38  history
